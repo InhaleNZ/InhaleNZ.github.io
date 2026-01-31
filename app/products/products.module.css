@@ -1,0 +1,135 @@
+.productsMain {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #ffffff;
+}
+
+.header {
+  max-width: 1400px;
+  margin: 0 auto 60px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.backLink {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+.backLink:hover {
+  opacity: 0.6;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.brandsGrid {
+  max-width: 1400px;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 60px;
+}
+
+.brandCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: opacity 0.2s ease;
+}
+
+.brandCard:hover {
+  opacity: 0.6;
+}
+
+.brandLogo {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 2px solid #000000;
+  background: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.footerText {
+  font-size: 20px;
+  color: #000000;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.visitButton {
+  display: inline-block;
+  padding: 16px 40px;
+  border: 2px solid #000000;
+  background: transparent;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: opacity 0.2s ease;
+}
+
+.visitButton:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 968px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .brandsGrid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footerText {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .brandsGrid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .brandCard {
+    padding: 10px;
+  }
+}

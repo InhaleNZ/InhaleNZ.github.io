@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -9,14 +10,14 @@ export default function Home() {
           className={styles.logo}
           src="/InhaleVapeLogo.png"
           alt="Inhale NZ Logo"
-          width={500}
-          height={250}
+          width={500*2}
+          height={250*2}
           priority          
         />
       </div>
       <nav className={styles.mainNav}>
-        <a href="/products" className={styles.navButton}>Products</a>
-        <a href="/location" className={styles.navButton}>Location</a>
+        <Link href="/products" className={styles.navButton}>Products</Link>
+        <Link href="/location" className={styles.navButton}>Location</Link>
       </nav>
     </main>
   );

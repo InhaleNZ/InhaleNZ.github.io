@@ -5,7 +5,7 @@
   align-items: center;
   min-height: 100vh;
   padding: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #ffffff;
 }
 
 .logoContainer {
@@ -14,12 +14,11 @@
 }
 
 .logo {
-  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
-  transition: transform 0.3s ease;
+  transition: opacity 0.2s ease;
 }
 
 .logo:hover {
-  transform: scale(1.05);
+  opacity: 0.7;
 }
 
 .mainNav {
@@ -33,29 +32,25 @@
   text-align: center;
   padding: 16px 40px;
   min-width: 160px;
-  border: 2px solid white;
+  border: 2px solid #000000;
   font-weight: 600;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  background: transparent;
   cursor: pointer;
-  color: white;
+  color: #000000;
   font-size: 18px;
   text-decoration: none;
-  border-radius: 50px;
-  transition: all 0.3s ease;
+  border-radius: 0;
+  transition: opacity 0.2s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .navButton:hover {
-  background: white;
-  color: #667eea;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  opacity: 0.6;
 }
 
 .navButton:active {
-  transform: translateY(0);
+  opacity: 0.4;
 }
 
 @keyframes fadeInDown {
