@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[5500,["/_next/static/chunks/41ab0647755d06e3.js"],"Image"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+:HL["/_next/static/chunks/b67b26efb94198c0.css","style"]
+0:{"buildId":"iT2ZWa34zdtKlXPpVcc2W","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"page-module__E0kJGG__homeMain","children":[["$","div",null,{"className":"page-module__E0kJGG__logoContainer","children":["$","$L2",null,{"className":"page-module__E0kJGG__logo","src":"/InhaleVapeLogo.png","alt":"Inhale NZ Logo","width":500,"height":250,"priority":true}]}],["$","nav",null,{"className":"page-module__E0kJGG__mainNav","children":[["$","a",null,{"href":"/products","className":"page-module__E0kJGG__navButton","children":"Products"}],["$","a",null,{"href":"/location","className":"page-module__E0kJGG__navButton","children":"Location"}]]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/b67b26efb94198c0.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/41ab0647755d06e3.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
