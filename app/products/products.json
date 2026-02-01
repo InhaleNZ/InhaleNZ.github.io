@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "name": "IGET",
+    "products": [
+      "Luna Kits & Pods",
+      "3.0 Kits & Pods",
+      "2.0 Pods"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Juvous",
+    "products": [
+      "Kits & Pods"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Solo",
+    "products": [
+      "Max Kits & Pods",
+      "Kits & Pods"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "BUD",
+    "products": [
+      "Kits & Pods"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ammo",
+    "products": [
+      "6500 Kits & Pods"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Vapengin",
+    "products": [
+      "13000 Kits & Pods"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Flux",
+    "products": [
+      "Kits & Pods"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tilt",
+    "products": [
+      "Kits & Pods"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Superfresh",
+    "products": [
+      "Kits & Pods"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Superfreez",
+    "products": [
+      "Kits & Pods"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Inmood",
+    "products": [
+      "Prism Kits & Pods"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Grabit",
+    "products": [
+      "Disposables"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Peek",
+    "products": [
+      "Disposables"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Vuse",
+    "products": [
+      "Kits & Pods"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Go2",
+    "products": [
+      "Pods & Battery"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Liquids",
+    "products": [
+      "15+ Brands Available Instore"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Waterpipes",
+    "products": [
+      "Large Range Available",
+      "Low Prices"
+    ]
+  }
+]

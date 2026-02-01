@@ -1,5 +1,29 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "./location.module.css";
+
+export const metadata: Metadata = {
+  title: "Find Us",
+  description:
+    "Find Inhale Vape NZ in Shirley, Christchurch. Get directions to 73A Briggs Road. Open 7 days a week. Call or email us today.",
+  keywords: [
+    "Inhale Vape location",
+    "vape shop Shirley Christchurch",
+    "73A Briggs Road Shirley",
+    "vape store near me Christchurch",
+    "vape shop opening hours Christchurch",
+  ],
+  alternates: {
+    canonical: "https://www.inhalevape.co.nz/location",
+  },
+  openGraph: {
+    title: "Find Us | Inhale Vape NZ",
+    description:
+      "Find Inhale Vape NZ at 73A Briggs Road, Shirley, Christchurch. Open 7 days a week.",
+    url: "https://www.inhalevape.co.nz/location",
+  },
+};
+
 
 export default function Location() {
   return (
@@ -32,7 +56,7 @@ export default function Location() {
 
           <div className={styles.infoBlock}>
             <h2 className={styles.sectionTitle}>Contact</h2>
-            <p className={styles.infoText}>Phone: what number</p>
+            <p className={styles.infoText}>Phone: 027 375 2985</p>
             <p className={styles.infoText}>Email: raewyns email</p>
           </div>
         </div>
