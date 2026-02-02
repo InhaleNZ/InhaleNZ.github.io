@@ -24,17 +24,36 @@ export const metadata: Metadata = {
     siteName: "Inhale Vape NZ",
     locale: "en_NZ",
     type: "website",
+    images: [
+        {
+          url: "/InhaleVapeLogo.png",
+          width: 1000,
+          height: 500,
+          alt: "Inhale Vape NZ - Premium Vape Shop in Christchurch"
+        },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Inhale Vape NZ | Premium Vape Shop in Christchurch",
     description: "Christchurch's premier vape shop offering quality vaping products and expert service.",
+    images: ["/InhaleVapeLogo.png"]
   },
   robots: {
     index: true,
     follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+    },
   },
   viewport: "width=device-width, initial-scale=1",
+  alternates: {
+    canonical: "https://www.inhale.co.nz",
+  },
 };
 
 export default function RootLayout({
@@ -45,8 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en-NZ">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>

@@ -57,7 +57,7 @@ export default function Location() {
           <div className={styles.infoBlock}>
             <h2 className={styles.sectionTitle}>Contact</h2>
             <p className={styles.infoText}>Phone: 027 375 2985</p>
-            <p className={styles.infoText}>Email: raewyns email</p>
+            <p className={styles.infoText}>Email: raewynfindlay111@gmail.com</p>
           </div>
         </div>
 
