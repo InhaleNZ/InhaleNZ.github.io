@@ -83,14 +83,14 @@
     "id": 12,
     "name": "Grabit",
     "products": [
-      "Disposables"
+      "Kits & Pods"
     ]
   },
   {
     "id": 13,
-    "name": "Peek",
+    "name": "PeekBar",
     "products": [
-      "Disposables"
+      "Prefilled"
     ]
   },
   {
